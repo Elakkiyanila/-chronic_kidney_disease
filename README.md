@@ -17,3 +17,5 @@ standard_feature_scaler = StandardScaler()
 X_train = pd.DataFrame(standard_feature_scaler.fit_transform(X_train), columns=X.columns)
 X_test = pd.DataFrame(standard_feature_scaler.transform(X_test), columns=X.columns)
 ```
+# Logistic Regression
+Logistic Regression is applied as one of the classification models. Here are the evaluation metrics for the Logistic Regression model:
