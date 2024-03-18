@@ -105,4 +105,14 @@ sns.heatmap(metrics.confusion_matrix(y_test, gb_predictions), annot=True)
 plt.title('Confusion Matrix - Gradient Boosting')
 plt.show()
 ```
-# Conclusion 
+# Conclusion
+
+The evaluation results for both the Gradient Boosting and Random Forest models demonstrate excellent performance in predicting Chronic Kidney Disease (CKD) likelihood:
+
+- **Precision**, **Recall**, and **F1-score** are all consistently high, indicating that the models are effectively identifying both positive and negative cases of CKD with minimal misclassification.
+- The **accuracy** of around 97.5% suggests that the models are making accurate predictions on the test dataset.
+- The **confusion matrices** show minimal false positives and false negatives, further confirming the models' robustness in distinguishing between CKD and non-CKD cases.
+- The **ROC AUC score** of approximately 0.975 indicates a high level of discrimination capability of the models.
+
+In conclusion, both the Gradient Boosting and Random Forest models exhibit strong predictive performance for CKD likelihood based on the given dataset. These models could be valuable tools for healthcare professionals in identifying individuals at risk of CKD, enabling early intervention and treatment. However, further validation on diverse datasets and clinical trials may be necessary before deploying these models in real-world healthcare settings.
+
